@@ -1,21 +1,45 @@
-var x=30, y=30, y1=15, r=40, ysamm=1;
+var x=30, y=30, y1=15, r=15, ysamm=1;
 function pallid(){
     var k = document.getElementById('cnv').getContext('2d')
 
     k.clearRect(0, 0, k.width, k.height);
-    k.fillStyle="blue";
+    k.fillStyle="#483D8B";
     k.beginPath()
     k.arc(x, y, r, 0, 4*Math.PI, true);
     k.stroke()//joon
     k.fill()//taust
 
-    k.fillStyle="red";
+    k.fillStyle="#9400D3";
     k.beginPath()
     k.arc(x, y1, r, 0, 4*Math.PI, true);
     k.stroke()//joon
     k.fill()//taust
 
-    k.fillStyle="green";
+    k.fillStyle="#B22222";
+    k.beginPath()
+    k.arc(x, y1, r, 0, 4*Math.PI, true);
+    k.stroke()//joon
+    k.fill()//taust
+
+    k.fillStyle="#DAA520";
+    k.beginPath()
+    k.arc(x, y1, r, 0, 4*Math.PI, true);
+    k.stroke()//joon
+    k.fill()//taust
+
+    k.fillStyle="#CD5C5C";
+    k.beginPath()
+    k.arc(x, y1, r, 0, 4*Math.PI, true);
+    k.stroke()//joon
+    k.fill()//taust
+
+    k.fillStyle="#FFFF00";
+    k.beginPath()
+    k.arc(x, y1, r, 0, 4*Math.PI, true);
+    k.stroke()//joon
+    k.fill()//taust
+
+    k.fillStyle="#FA8072";
     k.beginPath()
     k.arc(x, y1, r, 0, 4*Math.PI, true);
     k.stroke()//joon
@@ -51,4 +75,10 @@ function maa(){
 
     k.fillStyle="#A0522D";
     k.fillRect(0, 520, 500, 85);
+}
+function taht(){
+
+}
+function lint(){
+
 }
